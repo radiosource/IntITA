@@ -1,0 +1,168 @@
+.title_anketa{
+text-align: center;
+font: bold 30px Georgia,Times New Roman;
+}
+.title_invitation{
+text-align: center;
+font: 20px Georgia,Times New Roman;
+margin-top: 5px;
+}
+.form-text_title
+{
+ font: 16px Georgia,Times New Roman;
+ text-align: left;
+ margin: auto;
+ border: 3px lightcoral solid;
+ border-radius: 10px;
+ width: 40%;
+ height: 75px;
+}
+.form_text{
+ font: 20px Georgia,Times New Roman;
+ margin: 5px 5px 10px 25px;
+}
+
+
+
+
+ body{
+ 
+ border: 2px black double;
+ border-radius: 15px;
+background: -webkit-linear-gradient(top,#FFFFFF,#DDF3C8);
+  background: -moz-linear-gradient(top,#FFFFFF,#DDF3C8);
+   background: -ms-linear-gradient(top,#FFFFFF,#DDF3C8);
+  background: -o-linear-gradient(top,#FFFFFF,#DDF3C8);
+  background: linear-gradient(top,#FFFFFF,#DDF3C8);
+ }
+ 
+.submit {
+	width: 120px;
+	height: 32px;
+	padding: 0 0 2px;
+	font: 16px "Trebuchet MS", Tahoma, Arial, sans-serif;
+	outline: none;
+	position: relative;
+	cursor: pointer;
+	border-radius: 3px;
+	color: #555;
+	text-shadow: 1px 1px #D6D6D6;
+	border: 1px solid #959595;
+	border-top: 1px solid #B4B4B4;
+	border-bottom: 1px solid #7B7B7B;
+	box-shadow:
+		inset 0 1px #E3E3E3,
+		inset 1px 0 #CECECE,
+		inset -1px 0 #CECECE,
+		inset 0 -1px #BDBDBD,
+		0 2px #878787,
+		0 3px #7B7B7B,
+		0 4px 2px rgba(0,0,0,0.4)
+	;
+	background: -moz-linear-gradient(top,  #d1d1d1 0%, #afafaf 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d1d1d1), color-stop(100%,#afafaf)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d1d1d1 0%,#afafaf 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d1d1d1 0%,#afafaf 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d1d1d1 0%,#afafaf 100%); /* IE10+ */
+	background: linear-gradient(top,  #d1d1d1 0%,#afafaf 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#afafaf',GradientType=0 ); /* IE6-9 */
+	background-color: #C0C0C0;
+}
+.submit::-moz-focus-inner{border:0}
+.submit:hover {
+	border-top: 1px solid #A2A2A2;
+	box-shadow:
+		inset 0 1px #D4D4D4,
+		inset 1px 0 #CECECE,
+		inset -1px 0 #CECECE,
+		inset 0 -1px #CECECE,
+		0 2px #878787,
+		0 3px #7B7B7B,
+		0 4px 2px rgba(0,0,0,0.4)
+	;
+	background: -moz-linear-gradient(top,  #b7b7b7 0%, #c2c2c2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b7b7b7), color-stop(100%,#c2c2c2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #b7b7b7 0%,#c2c2c2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #b7b7b7 0%,#c2c2c2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #b7b7b7 0%,#c2c2c2 100%); /* IE10+ */
+	background: linear-gradient(top,  #b7b7b7 0%,#c2c2c2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7b7b7', endColorstr='#c2c2c2',GradientType=0 ); /* IE6-9 */
+	background-color: #C0C0C0;
+}
+.submit:active {
+	top: 3px;
+	border: 1px solid #919191;
+	border-top: 1px solid #757575;
+	border-bottom: 1px solid #9F9F9F;
+	background: #B3B3B3;
+	box-shadow: inset 0 1px 2px #7F7F7F;
+}
+.submit_div{
+text-align: center;
+}
+input{
+ margin-left: 20px;
+ width: 60%;
+ height: 35px;
+ font: 24px Georgia,Times New Roman;
+ border: 2px #28921f double;
+ color: navy;
+ padding-right: 30px;
+ }
+
+input[type=submit]:focus {
+   width:120px;}
+input:focus { /* add this to the already existing style */
+ width: 70%;
+}
+input{ /* add this to the already existing style */
+-moz-transition: widty .25s;
+-webkit-transition: width .25s;
+-o-transition: width .25s;
+transition: width .25s;
+}
+input:required{
+background:  mistyrose url(images/red_asterisk.png) no-repeat 98% center;
+border: 2px maroon double;
+}
+input[type="text"]:valid{
+background:  #fff url(images/valid.png) no-repeat 98% center;
+box-shadow: 0 0 5px #5cd053;
+border-color: #28921f;
+}
+input:invalid{
+border-color: #b03535;
+background:  #fff url(images/invalid.png) no-repeat 98% center;
+box-shadow: 0 0 5px #d45252;
+}
+
+input:focus:invalid{ /* when a field is considered invalid by the browser */
+background:  #fff url(images/invalid.png) no-repeat 98% center;
+box-shadow: 0 0 5px #d45252;
+border-color: #b03535;
+}
+input:required:valid{ /* when a field is considered valid by the browser */
+background:  #fff url(images/valid.png) no-repeat 98% center;
+box-shadow: 0 0 5px #5cd053;
+border-color: #28921f;
+}
+span {
+background: #d45252;
+border-radius: 3px 3px 3px 3px;
+color: white;
+margin-left:8px;
+padding: 1px 6px;
+z-index: 999; /* hints stay above all other elements */
+position: absolute; /* allows proper formatting if hint is two lines */
+display: none;
+}
+span::before {
+content: "\25C0"; /* треугольник, указующий влево, в  escaped unicode */
+color:#d45252;
+position: absolute;
+top:1px;
+left:-6px;
+}
+input:focus:invalid+ span {display: inline;}
+input :focus :invalid + span {background: #28921f;} /* change form hint color when valid */
+input :focus:alid + span {color:#28921f;} /* change form hint arrow color when valid */
