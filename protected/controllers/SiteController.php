@@ -72,6 +72,16 @@ class SiteController extends Controller
 		$this->render('contact',array('model'=>$model));
 	}
 
+    /**
+     * Displays the forum page
+     */
+    public function actionForum()
+    {
+        // renders the view file 'protected/views/site/index.php'
+        // using the default layout 'protected/views/layouts/main.php'
+        $this->render('forum');
+    }
+
 	/**
 	 * Displays the login page
 	 */
