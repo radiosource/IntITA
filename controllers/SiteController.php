@@ -72,6 +72,16 @@ class SiteController extends Controller
 		$this->render('contact',array('model'=>$model));
 	}
 
+    /**
+     * Displays the compiler page
+     */
+    public function actionCompiler()
+    {
+        // renders the view file 'protected/views/site/compiler.php'
+        // using the default layout 'protected/views/layouts/main.php'
+        $this->render('compiler');
+    }
+
 	/**
 	 * Displays the login page
 	 */
