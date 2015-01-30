@@ -1,0 +1,67 @@
+#main {
+    margin-top: 60px;
+}
+
+.left {
+    width: 475px;
+    float: left;
+    overflow: hidden;
+}
+.heading {
+
+}
+.heading .image {
+    float: left;
+    border-right: 1px solid #d3d3d3;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.code {
+    margin-top: -20px;
+    background: #ccccff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #0A246A;
+    font-weight: bold;
+}
+.code p {
+}
+#instruction {
+    margin-top: -15px;
+    background: url("images/background_instruction.png") repeat-y;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+#instruction img {
+    float: left;
+    margin-left: 15px;
+}
+#instruction div {
+    margin-left: 85px;
+    padding-top: 30px;
+}
+#task {
+    margin-top: -15px;
+    background: url("images/background_task.png") repeat-y;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+#task img{
+    float: left;
+    margin-left: 25px;
+}
+#task div {
+    margin-left: 85px;
+    padding-top: 30px;
+}
+.right {
+    float: right;
+    width: 440px;
+}
+#video {
+    margin-top: 30px;
+}
