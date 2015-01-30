@@ -27,7 +27,7 @@
     </div>
     <div class="right">
 
-        <div class="heading">
+        <div class="heading" >
             <div class="image">
                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/teacher.jpg">
             </div>
@@ -37,12 +37,13 @@
                     Орест Остапович Бендер<br />
                     orest@intita.org, orest@gmail.com<br/>
                     /067/ 777 77 77, /097/ 777 77 77<br/>
-                    skype: <b>orest.ostapovich</b>
+                    skype: <b>orest.ostapovich</b><br/>
+                    
                 </p>
             </div>
         </div>
     </div>
-    <hr />
+    <hr>
     <div class="left">
         <div id="lesson">
             <h1>Змінні та типи данних в PHP</h1>
@@ -143,12 +144,72 @@
     </div>
     <div class="right">
         <div id="video">
-            <h4 style="color: darkblue">Відео 1</h4>
+            <h3 style="color: darkblue">Відео 1</h3>
             <iframe width="440" height="300"
                     src="http://www.youtube.com/embed/XGSy3_Czz8k">
             </iframe>
         </div>
-    </div>
+        <h3 style="color: darkblue">Зразок коду 1</h3>
+        <div id="code_example">
+            <ol>
+                <li>  &lt;html&gt;<br/>  </li>
+                <li>  &nbsp;&nbsp;&nbsp;&lt;head&gt;<br/>  </li>
+                <li>  &nbsp;&nbsp;&nbsp;&lt;/head&gt;<br/>  </li>
+                <li>  &nbsp;&nbsp;&nbsp;&lt;body&gt;<br/>  </li>
+                <li>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<br/>  </li>
+                <li>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;?php<br/>  </li>
+                <li>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$items = //set this to a number greater than 5<br/>  </li>
+                <li> </li>
+                <li>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if($items&lt;5){<br/>  </li>
+                <li>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo &quot;You get a 10% discount&quot;;<br/>  </li>
+                <li>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br/>  </li>
+                <li>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?&gt;<br/>  </li>
+                <li>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;<br/>  </li>
+                <li>  &nbsp;&nbsp;&nbsp;&lt;/body&gt;<br/>  </li>
+                <li>   &lt;/html&gt;<br/>  </li>
 
+            </ol>
+        </div>
+
+        <span style="font-size: large; color: darkblue ">Зразок коду 2</span> <a href="/">(показати) </a> <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/arrow_open.png">
+
+        <p style="margin-top: 50px; "><i>Вітаємо, ви пройшли урок!<br/>
+                або:<br/>
+                для завершення уроку вам необхідно виконати завдання 5 та 8.<br/>
+                Виділити виконані та невиконані.
+            </i></p>
+    </div>
+    <hr>
+    <div class="left">
+        <p>
+            Урок 2: <b>Попередній урок PHP</b><br/>
+            Тип: <i>практична робота</i> <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/practice_work.png">
+            Тривалість: <i>40 хв</i> <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/clock.png"><br/><br/>
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/progress_valid.png">
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/progress_valid.png">
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/progress_valid.png">
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/progress_valid.png">
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/progress_valid.png">
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/progress_valid.png">
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/medal_valid.png"><br/><br/>
+            <a href="/"><<Переглянути знову попередній урок</a>
+        </p>
+
+    </div>
+    <div class="right">
+        <p style="border-left: 1px solid #d3d3d3; padding-left: 15px;">
+            Урок 4: <b>Наступний урок PHP</b><br/>
+            Тип: <i>практична робота</i> <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/practice_work.png">
+            Тривалість: <i>40 хв</i> <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/clock.png"><br/><br/>
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/progress.png">
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/progress.png">
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/progress.png">
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/progress.png">
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/progress.png">
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/progress.png">
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/css/images/medal.png"><br/><br/>
+            <a href="/">Перейти(кнопка якщо пройшов)>></a>
+        </p>
+    </div>
 
 </div>
